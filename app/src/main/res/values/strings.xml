@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lista de Livros</string>
+
+    <string name="procurando_livro">Procurando algum livro?</string>
+
+    <string name="txt_explicativo">Insira o nome do autor ou o nome do
+    livro que encontramos para você! </string>
+
+     <string name="txt_buscarr"> Buscar </string>
+
+    <string name="verificar_loja">Verificar na loja</string>
+
+    <string name="digite_aqui">Digite aqui</string>
+
+    <string name="sem_conexao_rede">
+        <![CDATA[
+        Nenhuma rede disponível!\n
+        Verifique a conexão e tente novamente
+         ]]>
+    </string>
+
+    <string name="sem_resultados_livro">
+        <![CDATA[
+        Nenhum livro encontrado!\n Favor verificar ortografia ou
+     informar algum dado sobre o livro novamente
+         ]]>
+    </string>
+
+</resources>

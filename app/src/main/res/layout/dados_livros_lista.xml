@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:layout_below="@+id/autor"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        tools:text="Titulo" />
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_gravity="center"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="10sp"
+        tools:text="Autor" />
+
+    <TextView
+        android:id="@+id/verificarLoja"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descricao"
+        android:background="@drawable/background_botao_lista"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/verificar_loja"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_toRightOf="@id/imagem"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/autor"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:maxLines="5"
+        android:ellipsize="end"
+        tools:text="Descricao do livro"
+        android:layout_alignBottom="@+id/imagem"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
+
